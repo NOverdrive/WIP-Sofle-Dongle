@@ -4,10 +4,12 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: gpeye
       url-base: https://github.com/GPeye
-    - name: tokyo2006
-      url-base: https://github.com/tokyo2006
+    #- name: tokyo2006
+     # url-base: https://github.com/tokyo2006
     - name: englmaxi
       url-base: https://github.com/englmaxi
+    - name: carrefinho                            # <--- add this
+      url-base: https://github.com/carrefinho     # <--- and this
   projects:
     - name: hammerbeam-slideshow
       remote: gpeye
@@ -16,9 +18,12 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    #- name: prospector-zmk-module                 # <--- and these
+     # remote: tokyo2006                          # <---
+      #revision: support_nicenano
     - name: prospector-zmk-module                 # <--- and these
-      remote: tokyo2006                          # <---
-      revision: support_nicenano
+      remote: carrefinho                          # <---
+      revision: main                              # <---
     - name: zmk-dongle-display
       remote: englmaxi
       revision: main
