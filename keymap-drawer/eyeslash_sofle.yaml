@@ -91,7 +91,7 @@ layers:
   - HOME
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB ON
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -104,7 +104,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB OFF
   - RGB OFF
   - RGB ON
   - RGB EFF
@@ -120,9 +120,9 @@ layers:
   - $$mdi:volume-off$$
   - EP ON
   - EP OFF
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB EFF
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB BRI
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
