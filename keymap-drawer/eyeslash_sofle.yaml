@@ -1,12 +1,12 @@
 layers:
   Base:
-  - $$mdi:keyboard-esc$$
+  - ESCAPE
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
+  - UP ARROW
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -19,7 +19,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:arrow-down-bold$$
+  - DOWN ARROW
   - Y
   - U
   - I
@@ -32,7 +32,7 @@ layers:
   - D
   - F
   - G
-  - $$mdi:arrow-left-bold$$
+  - LEFT ARROW
   - H
   - J
   - K
@@ -45,7 +45,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:arrow-right-bold$$
+  - RIGHT ARROW
   - N
   - M
   - {t: ',', s: <}
@@ -53,25 +53,25 @@ layers:
   - {t: /, h: \, s: '?'}
   - {t: '[', h: ']', s: '{'}
   - {t: PLAY PAUSE, h: '$$mdi:volume-off$$'}
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
+  - LEFT GUI
+  - LEFT ALT
   - '&layerdance'
-  - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - LEFT CONTROL
+  - {t: LEFT SHIFT, h: '$$mdi:gesture-tap-hold$$'}
   - {t: HOME, h: END}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Nav
-  - {t: PgUp, h: Num}
-  - {t: PgDn, h: Setup}
+  - {t: PAGE UP, h: Num}
+  - {t: PAGE DOWN, h: Setup}
   Alt:
-  - $$mdi:keyboard-esc$$
+  - ESCAPE
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
+  - UP ARROW
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -84,7 +84,7 @@ layers:
   - M
   - P
   - V
-  - $$mdi:arrow-down-bold$$
+  - DOWN ARROW
   - {t: /, h: \, s: '?'}
   - {t: ., s: '>'}
   - Q
@@ -97,7 +97,7 @@ layers:
   - N
   - T
   - B
-  - $$mdi:arrow-left-bold$$
+  - LEFT ARROW
   - {t: ',', s: <}
   - A
   - E
@@ -110,7 +110,7 @@ layers:
   - L
   - D
   - G
-  - $$mdi:arrow-right-bold$$
+  - RIGHT ARROW
   - {t: '-', h: '=', s: _}
   - U
   - O
@@ -118,17 +118,17 @@ layers:
   - K
   - {t: '[', h: ']', s: '{'}
   - {t: PLAY PAUSE, h: '$$mdi:volume-off$$'}
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
+  - LEFT GUI
+  - LEFT ALT
   - '&layerdance'
-  - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - LEFT CONTROL
+  - {t: LEFT SHIFT, h: '$$mdi:gesture-tap-hold$$'}
   - {t: HOME, h: END}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Nav
-  - {t: PgUp, h: Num}
-  - {t: PgDn, h: Setup}
+  - {t: PAGE UP, h: Num}
+  - {t: PAGE DOWN, h: Setup}
   Num:
   - Ctl+S
   - Ctl+Z
@@ -136,7 +136,7 @@ layers:
   - Ctl+C
   - Ctl+V
   - Ctl+Sft+Z
-  - $$mdi:arrow-up-bold$$
+  - UP ARROW
   - KP NUMLOCK
   - {t: /, s: '?'}
   - '*'
@@ -180,7 +180,7 @@ layers:
   - KP 1
   - KP 2
   - KP 3
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - RET
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: PLAY PAUSE, h: '$$mdi:volume-off$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -201,7 +201,7 @@ layers:
   - F3
   - F4
   - F5
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - '&mmv MOVE_UP'
   - F6
   - F7
   - F8
@@ -213,9 +213,9 @@ layers:
   - END
   - $$mdi:arrow-up-bold$$
   - HOME
-  - PgUp
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - PG UP
+  - PAGE UP
+  - '&mmv MOVE_DOWN'
+  - $$mdi:transfer-up$$
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
@@ -226,34 +226,34 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - PgDn
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - PG DN
+  - PAGE DOWN
+  - '&mmv MOVE_LEFT'
+  - $$mdi:transfer-down$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-shift$$
+  - LEFT SHIFT
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-right-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - '&mkp LCLK'
+  - '&mmv MOVE_RIGHT'
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - '&mkp MCLK'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: PLAY PAUSE, h: '$$mdi:volume-off$$'}
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
+  - LEFT GUI
+  - LEFT ALT
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
+  - '&mkp LCLK'
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: Alt, h: toggle, type: held}
